@@ -27,7 +27,7 @@ instance_type       = "t2.micro"
 ```
 ### 2. Validar las Credenciales
 Crear un perfil de credenciales en caso tal no se tenga configurado y detallar la ruta dentro de `main.tf`
-```json
+```hcl
 provider "aws" {
     region                   = var.aws_region
     shared_credentials_files = ["~/.aws/credentials"]

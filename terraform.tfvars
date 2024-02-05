@@ -1,0 +1,8 @@
+aws_region          = "us-west-2"
+vpc_name            = "dandrade_vpc"
+vpc_cidr_block      = "10.0.0.0/16"
+public_subnet_cidr  = "10.0.1.0/24"
+private_subnet_cidr = "10.0.2.0/24"
+availability_zone   = "us-west-2a"
+ami_id              = "ami-0ecb0bb5d6b19457a"
+instance_type       = "t2.micro"

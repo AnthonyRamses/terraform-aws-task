@@ -30,8 +30,8 @@ Crear un perfil de credenciales en caso tal no se tenga configurado y detallar l
 ```json
 provider "aws" {
     region                   = var.aws_region
-    shared_credentials_files = ["~/.aws/credentials"] //Cambiar segun configuracion
-    profile                  = "creds" //Cambiar segun configuracion
+    shared_credentials_files = ["~/.aws/credentials"]
+    profile                  = "creds"
 }
 ```
 ### 3. Iniciar Terraform
